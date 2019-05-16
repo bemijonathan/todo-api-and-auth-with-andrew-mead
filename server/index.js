@@ -24,10 +24,7 @@ app.post('/todo', (req, res)=>{
         res.send('ok')
     },err=>{
         res.send(err)
-    })
-
-    
-    
+    }) 
 })
 
 
